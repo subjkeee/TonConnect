@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@tonconnect/ui": "^2.0.9",
+    "@tonconnect/ui-react": "^2.0.9"
+  }
+}

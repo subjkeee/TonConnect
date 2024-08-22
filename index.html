@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TON SITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
+  </head>
+  <body>
+    <h1>Welcome to TON Blockchain</h1>
+    <div id="connect"></div>
+    <script>
+        const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
+            manifestUrl: 'http://localhost:63342/TonConnection/ton-site/index.html?_ijt=n7b3ojcq7kcpfnoe4016bsr6bf&_ij_reload=RELOAD_ON_SAVE/tonconnect-manifest.json',
+            buttonRootId: "connect"
+        });
+    </script>
+  </body>
+</html>
